@@ -1,7 +1,7 @@
 # GDrone AgriSense
 ### Precision Agriculture via UAV Remote Sensing and AI
 
-> Part of the [GDrone Initiative
+> Part of the [GDrone Initiative]
 
 ---
 
@@ -29,25 +29,13 @@ signatures before they become visible — and before they cost a harvest.
 ---
 
 ## Proposed System Architecture
-UAV Flight Mission
-│
-▼
-Multispectral Imaging (NIR, Red Edge, Thermal, RGB)
-│
-▼
-Orthomosaic Generation (OpenDroneMap)
-│
-▼
-Index Computation (NDVI, NDRE, Canopy Temp Difference)
-│
-▼
-AI Inference — CNN Stress Classifier
+UAV Flight Mission ➡️ Multispectral Imaging (NIR, Red Edge, Thermal, RGB) ➡️ Orthomosaic Generation (OpenDroneMap) ➡️ Index Computation (NDVI, NDRE, Canopy Temp Difference) ➡️ AI Inference — CNN Stress Classifier
 │
 ├── Stress Type (water / nutrient / disease / pest)
 ├── Severity Map (field-level, sub-metre resolution)
 └── Intervention Recommendation
 │
-▼
+⬇️
 Farmer-Facing Output (field map + decision)
 
 
@@ -74,19 +62,19 @@ Farmer-Facing Output (field map + decision)
 
 ---
 
-## UAV Platform
+## UAV Platform Experience
 
-Built on the GDrone hardware framework developed through Alpha Flight Club:
+The GDrone experience developed through Alpha Flight Club:
 
 - Hexacopter / quadcopter airframe (custom build)
 - Flight controller: ArduPilot / PX4
-- Payload: Multispectral camera (MicaSense RedEdge / DJI Multispectral)
+- Payload: Camera
 - Navigation: Autonomous waypoint missions with consistent altitude hold
-- Ground software: Mission Planner / QGroundControl
+- Ground software: Mission Planner / GroundControl
 
 ---
 
-## Why Sub-Saharan Africa
+## Why Africa
 
 - Smallholder plot sizes suit drone-scale sensing (satellites lack resolution)
 - High input costs make precision application directly economical
@@ -99,13 +87,13 @@ Built on the GDrone hardware framework developed through Alpha Flight Club:
 
 | Phase | Status |
 |---|---|
-| System architecture & research design | ✅ Complete |
-| Literature review & index selection | ✅ Complete |
-| UAV platform (GDrone base) | ✅ Operational |
+| System architecture & research design | 🔄 In Progress |
+| Literature review & index selection | 🔄 In Progress |
+| UAV platform  | 🔄 In Progress |
 | Multispectral data pipeline (simulation) | 🔄 In Progress |
 | CNN model — training & validation | 🔄 In Progress |
-| Field testing | 🔜 Planned |
-| Farmer-facing output interface | 🔜 Planned |
+| Field testing | 🔄 In Progress |
+| Farmer-facing output interface | 🔄 In Progress |
 
 ---
 
