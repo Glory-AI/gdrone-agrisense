@@ -30,13 +30,21 @@ signatures before they become visible — and before they cost a harvest.
 
 ## Proposed System Architecture
 UAV Flight Mission
+
 ⬇️
+
 Multispectral Imaging (NIR, Red Edge, Thermal, RGB) 
+
 ⬇️
+
 Orthomosaic Generation (OpenDroneMap)
+
 ⬇️
+
 Index Computation (NDVI, NDRE, Canopy Temp Difference)
+
 ⬇️
+
 AI Inference — CNN Stress Classifier
 
 Stress Type (water / nutrient / disease / pest)
@@ -46,6 +54,7 @@ Severity Map (field-level, sub-metre resolution)
 Intervention Recommendation
 
 ⬇️
+
 Farmer-Facing Output (field map + decision)
 
 
