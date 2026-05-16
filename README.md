@@ -13,7 +13,7 @@ only after yield loss is irreversible.
 
 **GDrone AgriSense** is a UAV-based precision agriculture platform that combines multispectral 
 remote sensing and lightweight AI to detect crop stress, nutrient deficiency, and disease 
-signatures before they become visible — and before they cost a harvest.
+signatures before they become visible; and before they cost a harvest.
 
 ---
 
