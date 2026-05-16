@@ -45,7 +45,7 @@ Index Computation (NDVI, NDRE, Canopy Temp Difference)
 
 ⬇️
 
-AI Inference — CNN Stress Classifier
+AI Inference; CNN Stress Classifier
 
 Stress Type (water / nutrient / disease / pest)
 
