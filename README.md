@@ -75,7 +75,7 @@ Farmer-Facing Output (field map + decision)
 
 - **Model:** Lightweight CNN trained on multispectral crop imagery
 - **Task:** Multi-class stress classification + severity estimation
-- **Target deployment:** Edge device (NVIDIA Jetson Nano) — no cloud dependency
+- **Target deployment:** Edge device (NVIDIA Jetson Nano); no cloud dependency
 - **Training data:** Open datasets (PlantVillage, Sentinel-2 crop health, field-collected UAV imagery)
 - **Output:** Georeferenced field maps with per-zone recommendations
 
@@ -85,7 +85,7 @@ Farmer-Facing Output (field map + decision)
 
 The GDrone experience developed through Alpha Flight Club:
 
-- Hexacopter / quadcopter airframe (custom build)
+- Hexacopter / quadcopter airframe build
 - Flight controller: ArduPilot / PX4
 - Payload: Camera
 - Navigation: Autonomous waypoint missions with consistent altitude hold
@@ -98,7 +98,7 @@ The GDrone experience developed through Alpha Flight Club:
 - Smallholder plot sizes suit drone-scale sensing (satellites lack resolution)
 - High input costs make precision application directly economical
 - Limited connectivity makes edge-AI deployment essential
-- Extension services are understaffed — automation multiplies reach
+- Extension services are understaffed; automation multiplies reach
 
 ---
 
@@ -118,11 +118,9 @@ The GDrone experience developed through Alpha Flight Club:
 
 ## Relation to GDrone
 
-GDrone AgriSense is the agricultural extension of the broader GDrone initiative — 
+GDrone AgriSense is the agricultural extension of the broader GDrone initiative; 
 applying the same measurement-driven UAV platform philosophy to food security and 
-smallholder farming. The same engineering discipline that makes a healthcare delivery 
-drone reliable — precise sensing, validated data, closed-loop feedback — is what makes 
-a crop monitoring system trustworthy.
+smallholder farming making crop monitoring system trustworthy.
 
 ---
 
@@ -130,8 +128,8 @@ a crop monitoring system trustworthy.
 
 This repository documents the technical foundation of my application to the 
 **IAP Precision Applied AI & Remote Sensing Fellowship**, where I propose to develop 
-and validate the GDrone AgriSense pipeline — from multispectral data acquisition 
-to edge-AI inference — with direct deployment relevance across African agricultural contexts.
+and validate the GDrone AgriSense pipeline;  from multispectral data acquisition 
+to edge-AI inference; with direct deployment relevance across African agricultural contexts.
 
 ---
 
